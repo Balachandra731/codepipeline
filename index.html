@@ -1,6 +1,94 @@
-<html>
-  <body style="text-align:center">
-    <h1>CodePipeline Success 🎉</h1>
-    <p>Deployed automatically from GitHub</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Demo App</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #1d2671, #c33764);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-box {
+      background: #ffffff;
+      width: 350px;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .login-box label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #1d2671;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background-color: #151b4f;
+    }
+
+    .footer-text {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <h2>Login</h2>
+
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter email" />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" />
+
+      <button type="submit">Login</button>
+    </form>
+
+    <div class="footer-text">
+      Deployed automatically using CodePipeline 🚀
+    </div>
+  </div>
+
+</body>
 </html>
