@@ -1,2 +1,4 @@
 #!/bin/bash
-systemctl restart httpd
+cd /home/ec2-user/app
+npm install
+npm start
