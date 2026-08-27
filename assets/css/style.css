@@ -33,7 +33,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 200%;
 }
 
 a:focus,
@@ -74,7 +74,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #38424D;
   margin: 0px;
 }
