@@ -22,7 +22,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #747E88;
+  color: #747E98;
 }
 
 * {
@@ -74,7 +74,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #38424D;
   margin: 0px;
 }
