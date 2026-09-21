@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: My First GitHub Action
+=======
+name: Travel App CI
+>>>>>>> 77ccabe4f5f6874354fea1972608c4c52453d62f
 
 on:
   push:
@@ -6,6 +10,7 @@ on:
       - main
 
 jobs:
+<<<<<<< HEAD
   test:
     runs-on: ubuntu-latest
 
@@ -15,3 +20,20 @@ jobs:
 
       - name: Run test
         run: echo "GitHub Actions is working!"
+=======
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Show Files
+        run: |
+          echo "GitHub Actions started"
+          ls -la
+
+      - name: Build Docker Image
+        run: |
+          docker build -t travel-app .
+>>>>>>> 77ccabe4f5f6874354fea1972608c4c52453d62f
